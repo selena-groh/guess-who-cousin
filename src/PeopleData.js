@@ -1,50 +1,41 @@
 import { POSSIBLE } from "./utils.js";
 
-import Abigail from "./assets/characterPortraits/Abigail.png";
-import Alex from "./assets/characterPortraits/Alex.png";
-import Birdie from "./assets/characterPortraits/Birdie.png";
-import Bouncer from "./assets/characterPortraits/Bouncer.png";
-import Caroline from "./assets/characterPortraits/Caroline.png";
-import Clint from "./assets/characterPortraits/Clint.png";
-import Demetrius from "./assets/characterPortraits/Demetrius.png";
-import Dwarf from "./assets/characterPortraits/Dwarf.png";
-import Elliott from "./assets/characterPortraits/Elliott.png";
-import Emily from "./assets/characterPortraits/Emily.png";
-import Evelyn from "./assets/characterPortraits/Evelyn.png";
-import George from "./assets/characterPortraits/George.png";
-import Gil from "./assets/characterPortraits/Gil.png";
-import Governor from "./assets/characterPortraits/Governor.png";
-import Grandpa from "./assets/characterPortraits/Grandpa.png";
-import Gunther from "./assets/characterPortraits/Gunther.png";
-import Gus from "./assets/characterPortraits/Gus.png";
-import Haley from "./assets/characterPortraits/Haley.png";
-import Harvey from "./assets/characterPortraits/Harvey.png";
-import Henchman from "./assets/characterPortraits/Henchman.png";
-import Jas from "./assets/characterPortraits/Jas.png";
-import Jodi from "./assets/characterPortraits/Jodi.png";
-import Kent from "./assets/characterPortraits/Kent.png";
-import Krobus from "./assets/characterPortraits/Krobus.png";
-import Leah from "./assets/characterPortraits/Leah.png";
-import Leo from "./assets/characterPortraits/Leo.png";
-import Lewis from "./assets/characterPortraits/Lewis.png";
-import Linus from "./assets/characterPortraits/Linus.png";
-import Marlon from "./assets/characterPortraits/Marlon.png";
-import Marnie from "./assets/characterPortraits/Marnie.png";
-import Maru from "./assets/characterPortraits/Maru.png";
-import Morris from "./assets/characterPortraits/Morris.png";
-import Mr_Qi from "./assets/characterPortraits/Mr_Qi.png";
-import Pam from "./assets/characterPortraits/Pam.png";
-import Penny from "./assets/characterPortraits/Penny.png";
-import Pierre from "./assets/characterPortraits/Pierre.png";
-import Professor_Snail from "./assets/characterPortraits/Professor_Snail.png";
-import Robin from "./assets/characterPortraits/Robin.png";
-import Sam from "./assets/characterPortraits/Sam.png";
-import Sandy from "./assets/characterPortraits/Sandy.png";
-import Sebastian from "./assets/characterPortraits/Sebastian.png";
-import Shane from "./assets/characterPortraits/Shane.png";
-import Vincent from "./assets/characterPortraits/Vincent.png";
-import Willy from "./assets/characterPortraits/Willy.png";
-import Wizard from "./assets/characterPortraits/Wizard.png";
+import Aaron from "./assets/characterPortraits/Aaron.png";
+import Alan from "./assets/characterPortraits/Alan.png";
+import Alec from "./assets/characterPortraits/Alec.png";
+import Amy from "./assets/characterPortraits/Amy.png";
+import Andrea from "./assets/characterPortraits/Andrea.png";
+import Brad from "./assets/characterPortraits/Brad.png";
+import Brittany from "./assets/characterPortraits/Brittany.png";
+import Carl from "./assets/characterPortraits/Carl.png";
+import Chris from "./assets/characterPortraits/Chris.png";
+import Cincy from "./assets/characterPortraits/Cincy.png";
+import Colin from "./assets/characterPortraits/Colin.png"
+import Dan from "./assets/characterPortraits/Dan.png";
+import Dani from "./assets/characterPortraits/Dani.png";
+import Dean from "./assets/characterPortraits/Dean.png";
+import Dena from "./assets/characterPortraits/Dena.png";
+import E from "./assets/characterPortraits/E.png";
+import Erica from "./assets/characterPortraits/Erica.png";
+import Gary from "./assets/characterPortraits/Gary.png";
+import Gayle from "./assets/characterPortraits/Gayle.png";
+import Ginger from "./assets/characterPortraits/Ginger.png";
+import Greg from "./assets/characterPortraits/Greg.png";
+import Ian from "./assets/characterPortraits/Ian.png";
+import Jacob from "./assets/characterPortraits/Jacob.png";
+import Jen from "./assets/characterPortraits/Jen.png";
+import Jessi from "./assets/characterPortraits/Jessi.png";
+import Joe from "./assets/characterPortraits/Joe.png";
+import Kelly from "./assets/characterPortraits/Kelly.png";
+import Lisa from "./assets/characterPortraits/Lisa.png";
+import Lisa2 from "./assets/characterPortraits/Lisa2.png";
+import Matt from "./assets/characterPortraits/Matt.png";
+import Meredith from "./assets/characterPortraits/Meredith.png";
+import Nick from "./assets/characterPortraits/Nick.png";
+import Olivia from "./assets/characterPortraits/Olivia.png";
+import Selena from "./assets/characterPortraits/Selena.png";
+import Tom from "./assets/characterPortraits/Tom.png";
+import Trace from "./assets/characterPortraits/Trace.png";
 
 import QuestionMark from "./assets/Questionmark.png";
 
@@ -54,49 +45,40 @@ export const choosingPerson = {
 };
 
 export const initialPeopleData = [
-  { name: "Abigail", imgSrc: Abigail, status: POSSIBLE },
-  { name: "Alex", imgSrc: Alex, status: POSSIBLE },
-  { name: "Birdie", imgSrc: Birdie, status: POSSIBLE },
-  { name: "Bouncer", imgSrc: Bouncer, status: POSSIBLE },
-  { name: "Caroline", imgSrc: Caroline, status: POSSIBLE },
-  { name: "Clint", imgSrc: Clint, status: POSSIBLE },
-  { name: "Demetrius", imgSrc: Demetrius, status: POSSIBLE },
-  { name: "Dwarf", imgSrc: Dwarf, status: POSSIBLE },
-  { name: "Elliott", imgSrc: Elliott, status: POSSIBLE },
-  { name: "Emily", imgSrc: Emily, status: POSSIBLE },
-  { name: "Evelyn", imgSrc: Evelyn, status: POSSIBLE },
-  { name: "George", imgSrc: George, status: POSSIBLE },
-  { name: "Gil", imgSrc: Gil, status: POSSIBLE },
-  { name: "Governor", imgSrc: Governor, status: POSSIBLE },
-  { name: "Grandpa", imgSrc: Grandpa, status: POSSIBLE },
-  { name: "Gunther", imgSrc: Gunther, status: POSSIBLE },
-  { name: "Gus", imgSrc: Gus, status: POSSIBLE },
-  { name: "Haley", imgSrc: Haley, status: POSSIBLE },
-  { name: "Harvey", imgSrc: Harvey, status: POSSIBLE },
-  { name: "Henchman", imgSrc: Henchman, status: POSSIBLE },
-  { name: "Jas", imgSrc: Jas, status: POSSIBLE },
-  { name: "Jodi", imgSrc: Jodi, status: POSSIBLE },
-  { name: "Kent", imgSrc: Kent, status: POSSIBLE },
-  { name: "Krobus", imgSrc: Krobus, status: POSSIBLE },
-  { name: "Leah", imgSrc: Leah, status: POSSIBLE },
-  { name: "Leo", imgSrc: Leo, status: POSSIBLE },
-  { name: "Lewis", imgSrc: Lewis, status: POSSIBLE },
-  { name: "Linus", imgSrc: Linus, status: POSSIBLE },
-  { name: "Marlon", imgSrc: Marlon, status: POSSIBLE },
-  { name: "Marnie", imgSrc: Marnie, status: POSSIBLE },
-  { name: "Maru", imgSrc: Maru, status: POSSIBLE },
-  { name: "Morris", imgSrc: Morris, status: POSSIBLE },
-  { name: "Mr. Qi", imgSrc: Mr_Qi, status: POSSIBLE },
-  { name: "Pam", imgSrc: Pam, status: POSSIBLE },
-  { name: "Penny", imgSrc: Penny, status: POSSIBLE },
-  { name: "Pierre", imgSrc: Pierre, status: POSSIBLE },
-  { name: "Prof. Snail", imgSrc: Professor_Snail, status: POSSIBLE },
-  { name: "Robin", imgSrc: Robin, status: POSSIBLE },
-  { name: "Sam", imgSrc: Sam, status: POSSIBLE },
-  { name: "Sandy", imgSrc: Sandy, status: POSSIBLE },
-  { name: "Sebastian", imgSrc: Sebastian, status: POSSIBLE },
-  { name: "Shane", imgSrc: Shane, status: POSSIBLE },
-  { name: "Vincent", imgSrc: Vincent, status: POSSIBLE },
-  { name: "Willy", imgSrc: Willy, status: POSSIBLE },
-  { name: "Wizard", imgSrc: Wizard, status: POSSIBLE }
+  { name: "Aaron", imgSrc: Aaron, status: POSSIBLE },
+  { name: "Alan", imgSrc: Alan, status: POSSIBLE },
+  { name: "Alec", imgSrc: Alec, status: POSSIBLE },
+  { name: "Amy", imgSrc: Amy, status: POSSIBLE },
+  { name: "Andrea", imgSrc: Andrea, status: POSSIBLE },
+  { name: "Brad", imgSrc: Brad, status: POSSIBLE },
+  { name: "Brittany", imgSrc: Brittany, status: POSSIBLE },
+  { name: "Carl", imgSrc: Carl, status: POSSIBLE },
+  { name: "Chris", imgSrc: Chris, status: POSSIBLE },
+  { name: "Cincy", imgSrc: Cincy, status: POSSIBLE },
+  { name: "Colin", imgSrc: Colin, status: POSSIBLE },
+  { name: "Dan", imgSrc: Dan, status: POSSIBLE },
+  { name: "Dani", imgSrc: Dani, status: POSSIBLE },
+  { name: "Dean", imgSrc: Dean, status: POSSIBLE },
+  { name: "Dena", imgSrc: Dena, status: POSSIBLE },
+  { name: "E", imgSrc: E, status: POSSIBLE },
+  { name: "Erica", imgSrc: Erica, status: POSSIBLE },
+  { name: "Gary", imgSrc: Gary, status: POSSIBLE },
+  { name: "Gayle", imgSrc: Gayle, status: POSSIBLE },
+  { name: "Ginger", imgSrc: Ginger, status: POSSIBLE },
+  { name: "Greg", imgSrc: Greg, status: POSSIBLE },
+  { name: "Ian", imgSrc: Ian, status: POSSIBLE },
+  { name: "Jacob", imgSrc: Jacob, status: POSSIBLE },
+  { name: "Jen", imgSrc: Jen, status: POSSIBLE },
+  { name: "Jessi", imgSrc: Jessi, status: POSSIBLE },
+  { name: "Joe", imgSrc: Joe, status: POSSIBLE },
+  { name: "Kelly", imgSrc: Kelly, status: POSSIBLE },
+  { name: "Lisa", imgSrc: Lisa, status: POSSIBLE },
+  { name: "Lisa2", imgSrc: Lisa2, status: POSSIBLE },
+  { name: "Matt", imgSrc: Matt, status: POSSIBLE },
+  { name: "Meredith", imgSrc: Meredith, status: POSSIBLE },
+  { name: "Nick", imgSrc: Nick, status: POSSIBLE },
+  { name: "Olivia", imgSrc: Olivia, status: POSSIBLE },
+  { name: "Selena", imgSrc: Selena, status: POSSIBLE },
+  { name: "Tom", imgSrc: Tom, status: POSSIBLE },
+  { name: "Trace", imgSrc: Trace, status: POSSIBLE },
 ];
