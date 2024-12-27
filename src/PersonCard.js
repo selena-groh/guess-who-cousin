@@ -7,11 +7,12 @@ const PersonCard = ({ person, onClick }) => {
   return (
     <Element
       className={cx("PersonCard", {
-        "PersonCard--eliminated": person?.status === ELIMINATED
+        "PersonCard--eliminated": person?.status === ELIMINATED,
       })}
       onClick={onClick}
     >
-      <img alt="" src={person?.imgSrc} width="99px" height="99px" />
+      {/* <img alt="" src={person?.imgSrc} width="99px" height="110px" /> */}
+      <img alt="" src={person?.imgSrc} />
       <p className="PersonCard-name">{person?.name}</p>
     </Element>
   );

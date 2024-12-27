@@ -1,8 +1,6 @@
-# Guess Who, Stardew?
+# Guess Who, Coloian?
 
-A Guess Who remake, but with Stardew Valley characters!
-
-Created with CodeSandbox: https://codesandbox.io/s/github/selena-groh/guess-who-stardew
+A Guess Who remake, but with the Coloian family!
 
 ## To Run
 I can't entirely remember, but try this:

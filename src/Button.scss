@@ -1,4 +1,7 @@
 .Button {
+  font-family: "Grandstander", serif;
+  font-weight: bold;
+  font-optical-sizing: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,7 +9,7 @@
   min-width: 5.5em;
   min-height: 3em;
   background-color: white;
-  font-size: 1em;
+  font-size: 1rem;
   color: #333;
   border: 1px solid #dcdcdc;
   border-radius: 2.5em;

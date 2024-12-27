@@ -1,16 +1,25 @@
+
 .PersonCard {
-  border: 1px solid lightgray;
-  transition: transform 100ms, background-color 100ms;
+  transition: transform 100ms;
+
   &-name {
     padding-top: 8px;
+    padding-bottom: 4px;
     overflow-wrap: anywhere;
   }
   &--eliminated {
-    background-color: lightgray;
-    filter: brightness(0.7);
+    // background-color: gray;
+    // filter: brightness(0.5);
+    background-color: lightgrey;
+    filter: brightness(0.4);
+  }
+  & img {
+    min-width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1.1;
   }
 }
- 
+
 button.PersonCard {
   cursor: pointer;
   &:active {

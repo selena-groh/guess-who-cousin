@@ -21,7 +21,7 @@ const Game = () => {
         person.name === personToToggle.name
           ? {
               ...person,
-              status: person.status === POSSIBLE ? ELIMINATED : POSSIBLE
+              status: person.status === POSSIBLE ? ELIMINATED : POSSIBLE,
             }
           : { ...person }
       )
@@ -50,7 +50,7 @@ const Game = () => {
               setChosenPerson(generateRandomFromArray(initialPeopleData))
             }
           >
-            Randomize Person
+            Choose Random Person
           </Button>
           <Button
             onClick={() => {
@@ -58,7 +58,7 @@ const Game = () => {
               setIsChoosingPerson(true);
             }}
           >
-            Clear
+            Clear Board
           </Button>
         </div>
         <p>
@@ -69,18 +69,19 @@ const Game = () => {
       </div>
       <div className="Game-board">
         {board.map((person, index) => (
-          <PersonCard
-            key={`${person}-${index}`}
-            person={person}
-            onClick={() => {
-              if (isChoosingPerson) {
-                setChosenPerson(person);
-                setIsChoosingPerson(false);
-              } else {
-                toggleStatus(person);
-              }
-            }}
-          />
+          <div className="Game-board-card" key={`${person}-${index}`}>
+            <PersonCard
+              person={person}
+              onClick={() => {
+                if (isChoosingPerson) {
+                  setChosenPerson(person);
+                  setIsChoosingPerson(false);
+                } else {
+                  toggleStatus(person);
+                }
+              }}
+            />
+          </div>
         ))}
       </div>
     </div>
