@@ -11,7 +11,7 @@ const PersonCard = ({ person, onClick }) => {
       })}
       onClick={onClick}
     >
-      <img alt="" src={person?.imgSrc} width="116px" height="116px" />
+      <img alt="" src={person?.imgSrc} width="99px" height="99px" />
       <p className="PersonCard-name">{person?.name}</p>
     </Element>
   );

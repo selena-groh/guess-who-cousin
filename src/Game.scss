@@ -1,13 +1,12 @@
 .Game {
-  margin: 32px auto;
-  max-width: 1500px;
+  margin: 8px auto;
   display: grid;
-  grid-gap: 8px;
+  grid-gap: 1px;
   grid-template-columns: 1fr;
   grid-template-areas: "sidebar"
   "board";
   @media only screen and (min-width: 640px) {
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 180px 1fr;
     grid-template-areas: "sidebar board"
     "sidebar board";
   }
@@ -28,7 +27,7 @@
   &-board {
     grid-area: board;
     display: flex;
-    grid-gap: 8px;
+    grid-gap: 2px;
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
