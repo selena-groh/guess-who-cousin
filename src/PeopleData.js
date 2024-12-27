@@ -13,7 +13,7 @@ import Chuck from "./assets/characterPortraits/Chuck.png";
 import Cincy from "./assets/characterPortraits/Cincy.png";
 import Clare from "./assets/characterPortraits/Clare.png";
 import Colin from "./assets/characterPortraits/Colin.png";
-import Cory from "./assets/characterPortraits/Cory.png"
+import Corey from "./assets/characterPortraits/Corey.png";
 import Dan from "./assets/characterPortraits/Dan.png";
 import Dani from "./assets/characterPortraits/Dani.png";
 import Dean from "./assets/characterPortraits/Dean.png";
@@ -51,7 +51,7 @@ import QuestionMark from "./assets/Questionmark.png";
 
 export const choosingPerson = {
   name: "Choosing Person",
-  imgSrc: QuestionMark
+  imgSrc: QuestionMark,
 };
 
 export const initialPeopleData = [
@@ -68,7 +68,7 @@ export const initialPeopleData = [
   { name: "Cincy", imgSrc: Cincy, status: POSSIBLE },
   { name: "Clare", imgSrc: Clare, status: POSSIBLE },
   { name: "Colin", imgSrc: Colin, status: POSSIBLE },
-  { name: "Cory", imgSrc: Cory, status: POSSIBLE },
+  { name: "Corey", imgSrc: Corey, status: POSSIBLE },
   { name: "Dan", imgSrc: Dan, status: POSSIBLE },
   { name: "Dani", imgSrc: Dani, status: POSSIBLE },
   { name: "Dean", imgSrc: Dean, status: POSSIBLE },
@@ -88,7 +88,7 @@ export const initialPeopleData = [
   { name: "Kate", imgSrc: Kate, status: POSSIBLE },
   { name: "Kelly", imgSrc: Kelly, status: POSSIBLE },
   { name: "Lisa", imgSrc: Lisa, status: POSSIBLE },
-  { name: "Lisa2", imgSrc: Lisa2, status: POSSIBLE },
+  { name: "Lisa Two", imgSrc: Lisa2, status: POSSIBLE },
   { name: "Liz", imgSrc: Liz, status: POSSIBLE },
   { name: "Matt", imgSrc: Matt, status: POSSIBLE },
   { name: "Meredith", imgSrc: Meredith, status: POSSIBLE },
@@ -100,5 +100,5 @@ export const initialPeopleData = [
   { name: "Selena", imgSrc: Selena, status: POSSIBLE },
   { name: "Tom", imgSrc: Tom, status: POSSIBLE },
   { name: "Trace", imgSrc: Trace, status: POSSIBLE },
-  { name: "Valerie", imgSrc: Valerie, status: POSSIBLE }
+  { name: "Valerie", imgSrc: Valerie, status: POSSIBLE },
 ];

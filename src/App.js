@@ -4,7 +4,7 @@ import Game from "./Game";
 function App() {
   return (
     <div className="App">
-      <h1 className="App-title">Cousin Guess Who?</h1>
+      <h1 className="App-title">Guess Who? Cousin Edition</h1>
       {/* <p className="App-subtitle">A Guess Who remake, but with family!</p> */}
       <Game />
       <div className="App-instructions">
