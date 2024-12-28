@@ -18,7 +18,7 @@ import Dan from "./assets/characterPortraits/Dan.png";
 import Dani from "./assets/characterPortraits/Dani.png";
 import Dean from "./assets/characterPortraits/Dean.png";
 import Dena from "./assets/characterPortraits/Dena.png";
-import E from "./assets/characterPortraits/E.png";
+import Elizabeth from "./assets/characterPortraits/Elizabeth.png";
 import Erica from "./assets/characterPortraits/Erica.png";
 import Gary from "./assets/characterPortraits/Gary.png";
 import Gayle from "./assets/characterPortraits/Gayle.png";
@@ -73,7 +73,7 @@ export const initialPeopleData = [
   { name: "Dani", imgSrc: Dani, status: POSSIBLE },
   { name: "Dean", imgSrc: Dean, status: POSSIBLE },
   { name: "Dena", imgSrc: Dena, status: POSSIBLE },
-  { name: "E", imgSrc: E, status: POSSIBLE },
+  { name: "Elizabeth", imgSrc: Elizabeth, status: POSSIBLE },
   { name: "Erica", imgSrc: Erica, status: POSSIBLE },
   { name: "Gary", imgSrc: Gary, status: POSSIBLE },
   { name: "Gayle", imgSrc: Gayle, status: POSSIBLE },

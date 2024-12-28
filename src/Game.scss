@@ -24,7 +24,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 213px;
+    min-height: 260px;
+    &--isChoosing {
+      background-color: white;
+      height: 215px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+
+    }
   }
   &-board {
     grid-area: board;

@@ -1,6 +1,6 @@
-# Guess Who, Coloian?
+# Guess Who? Cousin Edition
 
-A Guess Who remake, but with the Coloian family!
+A Guess Who remake, but with family!
 
 ## To Run
 I can't entirely remember, but try this:

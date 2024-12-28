@@ -36,7 +36,9 @@ const Game = () => {
         <div className="Game-yourPerson">
           <h2>Your Person</h2>
           {isChoosingPerson ? (
-            <PersonCard person={choosingPerson} />
+            <div className="Game-yourPerson--isChoosing">
+              Choose a person from the grid →
+            </div>
           ) : (
             <PersonCard person={chosenPerson} />
           )}
