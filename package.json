@@ -1,10 +1,10 @@
 {
-  "name": "guess-who-coloian",
+  "name": "guess-who-cousin",
   "version": "1.0.0",
   "license": "UNLICENSED",
   "description": "",
   "keywords": [],
-  "homepage": "http://jjkv.github.io/guess-who-coloian",
+  "homepage": "http://selena-groh.github.io/guess-who-cousin",
   "main": "src/index.js",
   "dependencies": {
     "classnames": "2.5.1",
