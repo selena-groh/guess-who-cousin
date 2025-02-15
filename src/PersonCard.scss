@@ -1,6 +1,7 @@
 
 .PersonCard {
   transition: transform 100ms;
+  border-radius: 5px;
 
   &-name {
     padding-top: 8px;
@@ -23,6 +24,6 @@
 button.PersonCard {
   cursor: pointer;
   &:active {
-    transform: scale(0.9);
+    transform: scale(0.95);
   }
 }
