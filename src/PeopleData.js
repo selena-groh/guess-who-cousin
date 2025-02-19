@@ -49,7 +49,7 @@ import Tom from "./assets/portraits/Tom.png";
 import Trace from "./assets/portraits/Trace.png";
 import Valerie from "./assets/portraits/Valerie.png";
 
-import QuestionMark from "./assets/Questionmark.png";
+import QuestionMark from "./assets/QuestionMark.png";
 
 export const choosingPerson = {
   name: "Choosing Person",
