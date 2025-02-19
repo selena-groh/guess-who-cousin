@@ -1,5 +1,8 @@
 .App {
+  padding: 16px 8px;
+  @media only screen and (min-width: 1120px) {
   padding: 16px 16px;
+  }
   &-title {
     font-size: 3em;
   }
@@ -13,6 +16,7 @@
     padding: 16px;
     font-family: "Grandstander", serif;
     font-weight: bold;
+    font-size: 16px;
     & ol {
       padding-left: 16px;
     }

@@ -43,7 +43,16 @@
     margin: auto;
   }
   &-board-card {
-    flex-basis: 8%;
+    flex-basis: 25%;
+    @media only screen and (min-width: 640px) {
+      flex-basis: 12%;
+    }
+    @media only screen and (min-width: 860px) {
+      flex-basis: 10%;
+    }
+    @media only screen and (min-width: 1120px) {
+      flex-basis: 8%;
+    }
   }
   &-actions {
     margin: 16px 0 32px 0;

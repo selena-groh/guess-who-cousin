@@ -1,51 +1,53 @@
 import { POSSIBLE } from "./utils.js";
 
-import Aaron from "./assets/characterPortraits/Aaron.png";
-import Alan from "./assets/characterPortraits/Alan.png";
-import Alec from "./assets/characterPortraits/Alec.png";
-import Amy from "./assets/characterPortraits/Amy.png";
-import Andrea from "./assets/characterPortraits/Andrea.png";
-import Brad from "./assets/characterPortraits/Brad.png";
-import Brittany from "./assets/characterPortraits/Brittany.png";
-import Carl from "./assets/characterPortraits/Carl.png";
-import Chris from "./assets/characterPortraits/Chris.png";
-import Chuck from "./assets/characterPortraits/Chuck.png";
-import Cincy from "./assets/characterPortraits/Cincy.png";
-import Clare from "./assets/characterPortraits/Clare.png";
-import Colin from "./assets/characterPortraits/Colin.png";
-import Corey from "./assets/characterPortraits/Corey.png";
-import Dan from "./assets/characterPortraits/Dan.png";
-import Dani from "./assets/characterPortraits/Dani.png";
-import Dean from "./assets/characterPortraits/Dean.png";
-import Dena from "./assets/characterPortraits/Dena.png";
-import Elizabeth from "./assets/characterPortraits/Elizabeth.png";
-import Erica from "./assets/characterPortraits/Erica.png";
-import Gary from "./assets/characterPortraits/Gary.png";
-import Gayle from "./assets/characterPortraits/Gayle.png";
-import Ginger from "./assets/characterPortraits/Ginger.png";
-import Greg from "./assets/characterPortraits/Greg.png";
-import Ian from "./assets/characterPortraits/Ian.png";
-import Jack from "./assets/characterPortraits/Jack.png";
-import Jacob from "./assets/characterPortraits/Jacob.png";
-import Jenn from "./assets/characterPortraits/Jenn.png";
-import Jessi from "./assets/characterPortraits/Jessi.png";
-import Joe from "./assets/characterPortraits/Joe.png";
-import Kate from "./assets/characterPortraits/Kate.png";
-import Kelly from "./assets/characterPortraits/Kelly.png";
-import Lisa from "./assets/characterPortraits/Lisa.png";
-import Lisa2 from "./assets/characterPortraits/Lisa2.png";
-import Liz from "./assets/characterPortraits/Liz.png";
-import Matt from "./assets/characterPortraits/Matt.png";
-import Meredith from "./assets/characterPortraits/Meredith.png";
-import Michael from "./assets/characterPortraits/Michael.png";
-import Nick from "./assets/characterPortraits/Nick.png";
-import Olivia from "./assets/characterPortraits/Olivia.png";
-import Pat from "./assets/characterPortraits/Pat.png";
-import Rose from "./assets/characterPortraits/Rose.png";
-import Selena from "./assets/characterPortraits/Selena.png";
-import Tom from "./assets/characterPortraits/Tom.png";
-import Trace from "./assets/characterPortraits/Trace.png";
-import Valerie from "./assets/characterPortraits/Valerie.png";
+import Aaron from "./assets/portraits/Aaron.png";
+import Alan from "./assets/portraits/Alan.png";
+import Alec from "./assets/portraits/Alec.png";
+import Amy from "./assets/portraits/Amy.png";
+import Andrea from "./assets/portraits/Andrea.png";
+import Brad from "./assets/portraits/Brad.png";
+import Brittany from "./assets/portraits/Brittany.png";
+import Carl from "./assets/portraits/Carl.png";
+import Chris from "./assets/portraits/Chris.png";
+import Chuck from "./assets/portraits/Chuck.png";
+import Cincy from "./assets/portraits/Cincy.png";
+import Clare from "./assets/portraits/Clare.png";
+import Colin from "./assets/portraits/Colin.png";
+import Corey from "./assets/portraits/Corey.png";
+import Dan from "./assets/portraits/Dan.png";
+import Dani from "./assets/portraits/Dani.png";
+import Dean from "./assets/portraits/Dean.png";
+import Dena from "./assets/portraits/Dena.png";
+import Elizabeth from "./assets/portraits/Elizabeth.png";
+import Erica from "./assets/portraits/Erica.png";
+import Gary from "./assets/portraits/Gary.png";
+import Gayle from "./assets/portraits/Gayle.png";
+import Ginger from "./assets/portraits/Ginger.png";
+import Greg from "./assets/portraits/Greg.png";
+import Hailey from "./assets/portraits/Hailey.png";
+import Ian from "./assets/portraits/Ian.png";
+import Jack from "./assets/portraits/Jack.png";
+import Jacob from "./assets/portraits/Jacob.png";
+import Jenn from "./assets/portraits/Jenn.png";
+import Jessi from "./assets/portraits/Jessi.png";
+import Joe from "./assets/portraits/Joe.png";
+import Kate from "./assets/portraits/Kate.png";
+import Kelly from "./assets/portraits/Kelly.png";
+import Lisa from "./assets/portraits/Lisa.png";
+import Lisa2 from "./assets/portraits/Lisa2.png";
+import Liz from "./assets/portraits/Liz.png";
+import Matt from "./assets/portraits/Matt.png";
+import Meredith from "./assets/portraits/Meredith.png";
+import Michael from "./assets/portraits/Michael.png";
+import Nick from "./assets/portraits/Nick.png";
+import Noah from "./assets/portraits/Noah.png";
+import Olivia from "./assets/portraits/Olivia.png";
+import Pat from "./assets/portraits/Pat.png";
+import Rose from "./assets/portraits/Rose.png";
+import Selena from "./assets/portraits/Selena.png";
+import Tom from "./assets/portraits/Tom.png";
+import Trace from "./assets/portraits/Trace.png";
+import Valerie from "./assets/portraits/Valerie.png";
 
 import QuestionMark from "./assets/Questionmark.png";
 
@@ -79,6 +81,7 @@ export const initialPeopleData = [
   { name: "Gayle", imgSrc: Gayle, status: POSSIBLE },
   { name: "Ginger", imgSrc: Ginger, status: POSSIBLE },
   { name: "Greg", imgSrc: Greg, status: POSSIBLE },
+  { name: "Hailey", imgSrc: Hailey, status: POSSIBLE },
   { name: "Ian", imgSrc: Ian, status: POSSIBLE },
   { name: "Jack", imgSrc: Jack, status: POSSIBLE },
   { name: "Jacob", imgSrc: Jacob, status: POSSIBLE },
@@ -94,6 +97,7 @@ export const initialPeopleData = [
   { name: "Meredith", imgSrc: Meredith, status: POSSIBLE },
   { name: "Michael", imgSrc: Michael, status: POSSIBLE },
   { name: "Nick", imgSrc: Nick, status: POSSIBLE },
+  { name: "Noah", imgSrc: Noah, status: POSSIBLE },
   { name: "Olivia", imgSrc: Olivia, status: POSSIBLE },
   { name: "Pat", imgSrc: Pat, status: POSSIBLE },
   { name: "Rose", imgSrc: Rose, status: POSSIBLE },

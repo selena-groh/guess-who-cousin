@@ -26,7 +26,7 @@ function App() {
             people's cards to eliminate them as possibilities.
           </li>
           <li>
-            Repeat until a team has a guess for who the other team's secret
+            Repeat until a team correctly guesses who the other team's secret
             person is.
           </li>
           <li>
